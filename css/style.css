@@ -1,0 +1,56 @@
+:root {
+  --color-primary: #5c535c;
+  --color-secondary: #6e6b78;
+  --color-body: #dbe3e5;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+/*Button*/
+
+.btn {
+  font-weight: 600;
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.8rem 1.2rem;
+  outline: 0;
+  border: 0;
+  background: var(--color-body);
+  color: var(--color-primary);
+}
+
+/*List*/
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: var(--color-body);
+}
+
+.list a:hover {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
