@@ -50,7 +50,20 @@ h2 {
   color: #fff;
 }
 
+/*Flex*/
+
 .flex {
   display: flex;
   justify-content: space-evenly;
+}
+
+/*Icons*/
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.icon--body {
+  fill: var(--color-primary);
 }
