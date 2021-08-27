@@ -39,7 +39,7 @@ h2 {
 .list {
   list-style: none;
   padding: 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 .list a {
@@ -61,6 +61,19 @@ h2 {
   justify-content: space-evenly;
 }
 
+/*grid*/
+.grid {
+  display: grid;
+}
+
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--1x3 {
+  grid-template-columns: repeat(3, 20% 60% 20%);
+}
+
 /*Icons*/
 
 .icon {
@@ -72,8 +85,12 @@ h2 {
   fill: var(--color-body);
 }
 
+.icon__top {
+  justify-self: flex-end;
+}
+
 .icon__top > svg {
-  margin: 0 1rem;
+  margin-right: 2rem;
 }
 
 .icon__social > svg {
@@ -84,7 +101,7 @@ h2 {
 
 .container {
   height: 100vh;
-  background: linear-gradient(90deg, #5c535c 70%, #6e6b78 30%);
+  background: linear-gradient(90deg, #5c535c 77%, #6e6b78 23%);
 }
 
 /*Content*/
@@ -103,4 +120,21 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 0.5px;
+}
+
+/*logo*/
+.logo {
+  justify-self: flex-start;
+  align-self: center;
+  margin-left: 2rem;
+}
+
+/*navBar*/
+
+.navBar {
+  padding: 4rem 2rem;
+}
+
+.navBar__content {
+  margin-top: 0.6rem;
 }
