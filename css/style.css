@@ -14,8 +14,11 @@ html {
   font-size: 65.2%;
 }
 
+h1,
 h2 {
-  font-size: 8rem;
+  margin: 0;
+  font-size: 7.5rem;
+  color: #fff;
 }
 
 /*Button*/
@@ -36,6 +39,7 @@ h2 {
 .list {
   list-style: none;
   padding: 0;
+  margin-top: 0;
 }
 
 .list a {
@@ -65,5 +69,38 @@ h2 {
 }
 
 .icon--body {
-  fill: var(--color-primary);
+  fill: var(--color-body);
+}
+
+.icon__top > svg {
+  margin: 0 1rem;
+}
+
+.icon__social > svg {
+  margin: 0 0.5rem;
+}
+
+/*Container*/
+
+.container {
+  height: 100vh;
+  background: linear-gradient(90deg, #5c535c 70%, #6e6b78 30%);
+}
+
+/*Content*/
+
+.content {
+  margin-bottom: 7rem;
+}
+
+.content > h1 {
+  font-size: 8.7rem;
+}
+
+.content > p {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
