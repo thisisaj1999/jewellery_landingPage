@@ -14,8 +14,8 @@ html {
   font-size: 65.2%;
 }
 
-h1,
-h2 {
+h2,
+h3 {
   margin: 0;
   font-size: 6.6rem;
   color: #fff;
@@ -152,8 +152,8 @@ h2 {
   margin-bottom: 7rem;
 }
 
-.content > h1 {
-  font-size: 7.6rem;
+.content__heading > h2 {
+  font-size: 8rem;
 }
 
 .content > p {
