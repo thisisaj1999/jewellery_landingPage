@@ -93,8 +93,12 @@ h2 {
   margin-right: 2rem;
 }
 
+.icon__social {
+  margin-right: 6rem;
+}
+
 .icon__social > svg {
-  margin: 0 0.5rem;
+  margin: 0 0 5rem 2rem;
 }
 
 /*Container*/
@@ -148,4 +152,12 @@ h2 {
 .image {
   width: 100%;
   max-width: 478px;
+}
+
+/*footer*/
+
+.footer .flex {
+  height: 100vh;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
