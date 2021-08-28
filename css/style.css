@@ -17,7 +17,7 @@ html {
 h1,
 h2 {
   margin: 0;
-  font-size: 7.5rem;
+  font-size: 6.6rem;
   color: #fff;
 }
 
@@ -32,6 +32,12 @@ h2 {
   border: 0;
   background: var(--color-body);
   color: var(--color-primary);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #fff;
 }
 
 /*List*/
@@ -48,6 +54,7 @@ h2 {
   font-weight: 600;
   font-size: 2.2rem;
   color: var(--color-body);
+  transition: color 0.3s ease-out;
 }
 
 .list a:hover {
@@ -79,6 +86,7 @@ h2 {
 .icon {
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 
 .icon--body {
@@ -94,16 +102,23 @@ h2 {
 }
 
 .icon__social {
-  margin-right: 6rem;
+  margin: 4rem;
 }
 
 .icon__social > svg {
-  margin: 0 0 5rem 2rem;
+  margin: 0 1rem;
+}
+
+.icon__social .icon--body:hover,
+.icon__top .icon--body:hover {
+  fill: #fff;
 }
 
 /*Container*/
 
 .container {
+  width: 1440px;
+  margin: 0 auto;
   height: 100vh;
   background: linear-gradient(90deg, #5c535c 77%, #6e6b78 23%);
 }
@@ -115,7 +130,7 @@ h2 {
 }
 
 .content > h1 {
-  font-size: 8.7rem;
+  font-size: 7.6rem;
 }
 
 .content > p {
@@ -124,6 +139,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 0.5px;
+  line-height: 3rem;
 }
 
 /*logo*/
@@ -147,6 +163,11 @@ h2 {
 
 .hero {
   justify-items: center;
+  align-items: center;
+}
+
+.hero__content {
+  margin-left: 9rem;
 }
 
 .image {
@@ -157,7 +178,6 @@ h2 {
 /*footer*/
 
 .footer .flex {
-  height: 100vh;
   align-items: flex-end;
   justify-content: flex-end;
 }

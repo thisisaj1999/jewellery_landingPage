@@ -15,6 +15,65 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <section class="container"></section>
+    <section class="container">
+      <header class="grid grid--1x3 navBar">
+        <img class="logo" src="images/logo.png" alt="landing page logo" />
+        <div class="navBar__content">
+          <ul class="flex list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="icon__top">
+          <svg class="icon icon--body">
+            <use xlink:href="images/sprite.svg#favourite"></use>
+          </svg>
+          <svg class="icon icon--body">
+            <use xlink:href="images/sprite.svg#store"></use>
+          </svg>
+        </div>
+      </header>
+
+      <section class="grid grid--1x2 hero">
+        <div class="hero__content">
+          <div class="content">
+            <h1>Luminous</h1>
+            <h2>Handmade Jewellery</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              eaque, est illo, dolores perspiciatis quisquam, quae
+              necessitatibus nesciunt illum fuga suscipit! Illo molestiae nobis
+              dolores consequatur cupiditate debitis, quos fuga!
+            </p>
+          </div>
+          <button class="btn">Get Started</button>
+        </div>
+        <picture class="hero__image">
+          <source type="image/webp" srcset="images/hero.webp" />
+          <img class="image" src="images/hero.png" alt="hero image" />
+        </picture>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="flex icon__social">
+            <svg class="icon icon--body">
+              <use xlink:href="images/sprite.svg#instagram"></use>
+            </svg>
+            <svg class="icon icon--body">
+              <use xlink:href="images/sprite.svg#facebook"></use>
+            </svg>
+            <svg class="icon icon--body">
+              <use xlink:href="images/sprite.svg#twitter"></use>
+            </svg>
+            <svg class="icon icon--body">
+              <use xlink:href="images/sprite.svg#whatsapp"></use>
+            </svg>
+          </div>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
