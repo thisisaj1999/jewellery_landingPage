@@ -118,8 +118,8 @@ h2 {
 
 .container {
   width: 1440px;
-  margin: 0 auto;
   height: 100vh;
+  margin: 0 auto;
   background: linear-gradient(90deg, #5c535c 77%, #6e6b78 23%);
 }
 
@@ -145,14 +145,13 @@ h2 {
 /*logo*/
 .logo {
   justify-self: flex-start;
-  align-self: center;
   margin-left: 2rem;
 }
 
 /*navBar*/
 
 .navBar {
-  padding: 4rem 2rem;
+  padding: 3.5rem 2rem;
 }
 
 .navBar__content {

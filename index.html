@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <section class="container">
@@ -39,18 +40,20 @@
       <section class="grid grid--1x2 hero">
         <div class="hero__content">
           <div class="content">
-            <h1>Luminous</h1>
-            <h2>Handmade Jewellery</h2>
-            <p>
+            <header data-aos="zoom-in-up">
+              <h1>Luminous</h1>
+              <h2>Handmade Jewellery</h2>
+            </header>
+            <p data-aos="fade-right">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
               eaque, est illo, dolores perspiciatis quisquam, quae
               necessitatibus nesciunt illum fuga suscipit! Illo molestiae nobis
               dolores consequatur cupiditate debitis, quos fuga!
             </p>
           </div>
-          <button class="btn">Get Started</button>
+          <button class="btn" data-aos="fade-right">Get Started</button>
         </div>
-        <picture class="hero__image">
+        <picture class="hero__image" data-aos="zoom-in-left">
           <source type="image/webp" srcset="images/hero.webp" />
           <img class="image" src="images/hero.png" alt="hero image" />
         </picture>
@@ -75,5 +78,10 @@
         </div>
       </footer>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
