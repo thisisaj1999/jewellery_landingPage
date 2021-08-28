@@ -138,3 +138,14 @@ h2 {
 .navBar__content {
   margin-top: 0.6rem;
 }
+
+/*hero*/
+
+.hero {
+  justify-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 478px;
+}
